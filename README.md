@@ -1,24 +1,88 @@
-# README
+# 🏆 GoalGetter - Task Management App  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Stay productive, track progress, and achieve your goals effortlessly!**
 
-Things you may want to cover:
+![image](https://github.com/user-attachments/assets/871b4bcb-4963-4de9-9916-b1b07e11c28f)
 
-* Ruby version
+## 📌 Table of Contents  
+- [📚 About](#about)  
+- [🛠️ Tech Stack](#tech-stack)  
+- [✨ Features](#features)  
+- [💻 Getting Started](#getting-started)  
+- [🚀 Live Demo](#live-demo)  
+- [👥 Contributors](#contributors)  
+- [🔥 Future Features](#future-features)  
+- [🤝 Contributing](#contributing)  
+- [⭐ Support](#support)  
+- [🙏 Acknowledgments](#acknowledgments)  
+- [📝 License](#license)  
 
-* System dependencies
+## 📚 About  <a name="about"></a>
+GoalGetter is a **task management app** that helps users **add, edit, delete, and complete tasks** while visually tracking their progress.
 
-* Configuration
+## 🛠️ Tech Stack  <a name="tech-stack"></a>
+- **Frontend:** React.js (Vite), Redux Toolkit, Styled Components
+- **Backend:** Ruby on Rails, PostgreSQL
+- **Auth:** JWT Authentication
 
-* Database creation
+## ✨ Features  <a name="features"></a>
+- 🔐 **User Authentication** (Signup, Login, Logout)  
+- ✅ **Task Management** (Add, Edit, Delete, Complete Tasks)  
+- 📊 **Progress Tracking** (Dynamic Progress Bar)  
+- 📱 **Mobile-Responsive UI**  
 
-* Database initialization
+## 💻 Getting Started  <a name="getting-started"></a>
 
-* How to run the test suite
+### 📌 Prerequisites  
+- Git & Node.js installed  
+- Basic knowledge of React & Rails  
 
-* Services (job queues, cache servers, search engines, etc.)
+### 🔧 Setup  
 
-* Deployment instructions
+#### **Backend (API)**  
+📂 **GitHub Repo:** [GoalGetter API](https://github.com/the-faizmohammad/goalgetter-api)  
+```sh
+# Clone the repo
+git clone https://github.com/the-faizmohammad/goalgetter-api.git
+cd goalgetter-api
+bundle install
+rails db:create db:migrate db:seed
+rails server
+```
 
-* ...
+#### **Frontend (React App)**  
+📂 **GitHub Repo:** [GoalGetter App](https://github.com/the-faizmohammad/goalgetter-app)  
+```sh
+# Clone the repo
+git clone https://github.com/the-faizmohammad/goalgetter-app.git
+cd goalgetter-app
+npm install
+npm run dev
+```
+
+## 🚀 Live Demo  <a name="live-demo"></a>
+🔗 **Coming soon...**  
+
+## 👥 Contributors  <a name="contributors"></a>
+👤 **Faiz Mohammad**  
+📧 [Email](mailto:thefaizmohammad@gmail.com)  
+🌍 [GitHub](https://github.com/the-faizmohammad)  
+
+## 🔥 Future Features  <a name="future-features"></a>
+- 🌙 Dark Mode  
+- 📊 Task Analytics Dashboard  
+- 🎯 Drag & Drop Task Sorting  
+- 📅 Calendar Integration  
+
+## 🤝 Contributing  <a name="contributing"></a>
+Contributions are welcome! Check the [issues page](https://github.com/the-faizmohammad/goalgetter-app/issues).
+
+## ⭐ Support  <a name="support"></a>
+If you like this project, **star the repo** ⭐ and consider contributing!  
+
+## 🙏 Acknowledgments  <a name="acknowledgments"></a>
+Special thanks to everyone who contributed!
+
+## 📝 License  <a name="license"></a>
+This project is **open-source** under the **MIT License**.
+
