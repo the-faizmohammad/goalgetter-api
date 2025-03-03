@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
-  post '/register', to: 'auth#register'
-  post '/login', to: 'auth#login'
-
-  get '/profile', to: 'users#show'
-  put '/profile', to: 'users#update'
-  delete '/profile', to: 'users#destroy'
-
-  resources :tasks
+  namespace :api do
+    post 'login', to: 'auth#login'
+    post 'register', to: 'auth#register'
+    get 'current_user', to: 'users#show' # New route to fetch logged-in user
+    resources :tasks
+  end
 end
