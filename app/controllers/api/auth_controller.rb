@@ -1,5 +1,5 @@
 class Api::AuthController < ApplicationController
-  skip_before_action :authorize_request, only: [:register, :login]  # Skip auth check for these actions
+  skip_before_action :authorize_request, only: [:register, :login]
 
   # Register User
   def register
@@ -24,7 +24,7 @@ class Api::AuthController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:name, :email, :password) # Removed password_confirmation
+    params.require(:user).permit(:name, :email, :password)
   end
 
   def generate_token(user)

@@ -1,5 +1,5 @@
 class Api::TasksController < ApplicationController
-  before_action :authorize_request  # Ensure user is authenticated
+  before_action :authorize_request
 
   def index
     tasks = @current_user.tasks
@@ -32,7 +32,7 @@ class Api::TasksController < ApplicationController
 
   private
 
-  # ✅ Fix: Permit `priority` and `due_date`
+  
   def task_params
     params.require(:task).permit(:title, :completed, :priority, :due_date)
   end
